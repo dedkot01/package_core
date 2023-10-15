@@ -1,0 +1,13 @@
+[project]
+name = "demo-package-cli"
+dynamic = ["version"]
+
+[project.scripts]
+demo-package = "demo_package_cli.main:cli"
+
+[tool.hatch.version]
+path = "demo_package_cli/__init__.py"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
