@@ -1,6 +1,9 @@
 [project]
 name = "demo-package-cli"
 dynamic = ["version"]
+dependencies = [
+    "typer[all]==0.9.0",
+]
 
 [project.scripts]
 demo-package = "demo_package_cli.main:cli"
