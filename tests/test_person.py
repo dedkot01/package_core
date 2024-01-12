@@ -1,4 +1,4 @@
-from demo_package_cli.person import Person
+from package_core.person import Person
 
 
 def test_person():
