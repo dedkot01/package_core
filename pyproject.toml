@@ -14,3 +14,6 @@ path = "demo_package_cli/__init__.py"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 80
